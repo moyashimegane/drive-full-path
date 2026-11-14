@@ -1,0 +1,26 @@
+{
+  "extName": { "message": "Full Path for Google Drive" },
+  "extDescription": {
+    "message": "Shows every folder of the path in the Google Drive breadcrumb instead of hiding them behind \"...\", and copies the full path."
+  },
+  "actionTitle": { "message": "Show the full folder path" },
+  "popupTitle": { "message": "Folder path" },
+  "copyButton": { "message": "Copy path" },
+  "copied": { "message": "Copied" },
+  "copyFailed": { "message": "Could not copy" },
+  "optionsButton": { "message": "Options" },
+  "optionsTitle": { "message": "Path copy settings" },
+  "optionsFailed": { "message": "Could not open options" },
+  "prefixLabel": { "message": "Text to prepend to the path" },
+  "prefixHelp": { "message": "Prepended exactly as entered. For a folder path, include a trailing separator (/ on Mac, \\ on Windows). Leave empty to add nothing." },
+  "separatorLabel": { "message": "Folder separator" },
+  "separatorSlash": { "message": "/ (Mac)" },
+  "separatorBackslash": { "message": "\\ (Windows)" },
+  "separatorHelp": { "message": "Placed between folder names. The text prepended to the path is not changed." },
+  "saveButton": { "message": "Save" },
+  "settingsSaved": { "message": "Saved" },
+  "settingsLoadFailed": { "message": "Could not load settings. Close and reopen this page." },
+  "settingsSaveFailed": { "message": "Could not save settings" },
+  "notFolderView": { "message": "Open a folder in Google Drive to see its path." },
+  "readFailed": { "message": "Could not read the folder path. Reload the page and try again." }
+}

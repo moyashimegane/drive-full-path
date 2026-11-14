@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="popup.css" />
+    <link rel="stylesheet" href="options.css" />
+  </head>
+  <body>
+    <h1 data-i18n="optionsTitle"></h1>
+    <form id="settings">
+      <label for="prefix" data-i18n="prefixLabel"></label>
+      <textarea id="prefix" rows="4" spellcheck="false" disabled></textarea>
+      <p class="help" data-i18n="prefixHelp"></p>
+      <label for="separator" data-i18n="separatorLabel"></label>
+      <select id="separator" disabled>
+        <option value="/" data-i18n="separatorSlash"></option>
+        <option value="\" data-i18n="separatorBackslash"></option>
+      </select>
+      <p class="help" data-i18n="separatorHelp"></p>
+      <div class="actions">
+        <button id="save" type="submit" data-i18n="saveButton" disabled></button>
+        <span id="status" class="status" role="status"></span>
+      </div>
+    </form>
+    <script src="options.js"></script>
+  </body>
+</html>

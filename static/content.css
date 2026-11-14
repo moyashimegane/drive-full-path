@@ -1,0 +1,14 @@
+/* Once the hidden folders are inserted, Drive's "..." button is redundant. */
+nav[guidedhelpid="folder_path"][data-dfp-expanded] [role="listitem"]:has([data-target="collapsedFolderButton"]) {
+  display: none !important;
+}
+
+/* Wrap onto more lines instead of cutting the path off. */
+nav[guidedhelpid="folder_path"][data-dfp-expanded] [role="list"] {
+  flex-wrap: wrap !important;
+}
+
+/* The extension opens Drive's "..." dropdown to read it; keep it off screen meanwhile. */
+html[data-dfp-hide-dropdown] [data-target="collapsedFolderDropdown"] {
+  visibility: hidden !important;
+}

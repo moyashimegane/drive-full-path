@@ -1,0 +1,26 @@
+{
+  "extName": { "message": "Full Path for Google Drive" },
+  "extDescription": {
+    "message": "Googleドライブのパンくずで「...」に隠れる上位フォルダを常に表示し、フルパスをコピーできます。"
+  },
+  "actionTitle": { "message": "フォルダのフルパスを表示" },
+  "popupTitle": { "message": "フォルダのパス" },
+  "copyButton": { "message": "パスをコピー" },
+  "copied": { "message": "コピーしました" },
+  "copyFailed": { "message": "コピーできませんでした" },
+  "optionsButton": { "message": "オプション" },
+  "optionsTitle": { "message": "パスコピーの設定" },
+  "optionsFailed": { "message": "オプションを開けませんでした" },
+  "prefixLabel": { "message": "パスの先頭に付ける文字" },
+  "prefixHelp": { "message": "入力した文字をそのまま付けます。フォルダパスの場合は末尾に区切り文字（Macは「/」、Windowsは「\\」）を付けてください。空欄にすると追加しません。" },
+  "separatorLabel": { "message": "フォルダの区切り文字" },
+  "separatorSlash": { "message": "/（Mac）" },
+  "separatorBackslash": { "message": "\\（Windows）" },
+  "separatorHelp": { "message": "フォルダ名の間に入れる文字です。パスの先頭に付ける文字は変わりません。" },
+  "saveButton": { "message": "保存" },
+  "settingsSaved": { "message": "保存しました" },
+  "settingsLoadFailed": { "message": "設定を読み込めませんでした。開き直してください。" },
+  "settingsSaveFailed": { "message": "設定を保存できませんでした" },
+  "notFolderView": { "message": "Googleドライブでフォルダを開くとパスを表示します。" },
+  "readFailed": { "message": "フォルダのパスを読み取れませんでした。ページを再読み込みしてから試してください。" }
+}

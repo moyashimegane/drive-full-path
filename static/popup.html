@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <h1 data-i18n="popupTitle"></h1>
+    <ol id="path" class="path" hidden></ol>
+    <p id="message" class="message" hidden></p>
+    <p id="copy-preview" class="copy-preview" hidden></p>
+    <div class="actions">
+      <button id="copy" type="button" data-i18n="copyButton" disabled></button>
+      <span id="status" class="status" role="status"></span>
+    </div>
+    <button id="options" type="button" data-i18n="optionsButton"></button>
+    <script src="popup.js"></script>
+  </body>
+</html>

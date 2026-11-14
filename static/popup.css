@@ -1,0 +1,124 @@
+:root {
+  --text: #1f1f1f;
+  --muted: #5f6368;
+  --accent: #0b57d0;
+  --line: #c4c7c5;
+  --hover: #e9eef6;
+  --background: #ffffff;
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text: #e3e3e3;
+    --muted: #9aa0a6;
+    --accent: #a8c7fa;
+    --line: #5f6368;
+    --hover: #2d3540;
+    --background: #1f1f1f;
+  }
+}
+
+body {
+  box-sizing: border-box;
+  width: 400px;
+  margin: 0;
+  padding: 12px 16px 16px;
+  background: var(--background);
+  color: var(--text);
+  font: 13px/1.5 system-ui, sans-serif;
+}
+
+h1 {
+  margin: 0 0 8px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.path {
+  margin: 0 0 12px;
+  padding: 0;
+  list-style: none;
+}
+
+.path li {
+  padding-left: calc(var(--depth) * 12px);
+  border-left: 1px solid transparent;
+}
+
+.folder {
+  display: block;
+  width: 100%;
+  padding: 3px 6px;
+  border: 0;
+  border-radius: 4px;
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  overflow-wrap: anywhere;
+}
+
+button.folder {
+  color: var(--accent);
+  cursor: pointer;
+}
+
+button.folder:hover,
+button.folder:focus-visible {
+  background: var(--hover);
+}
+
+.current {
+  font-weight: 600;
+}
+
+.message {
+  margin: 0 0 12px;
+  color: var(--muted);
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+#copy {
+  padding: 6px 14px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: none;
+  color: var(--accent);
+  font: inherit;
+  cursor: pointer;
+}
+
+#copy:disabled {
+  color: var(--muted);
+  cursor: default;
+}
+
+.status {
+  color: var(--muted);
+}
+
+.copy-preview {
+  padding: 8px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  font: 11px/1.5 monospace;
+  overflow-wrap: anywhere;
+  white-space: pre-wrap;
+}
+
+#options {
+  margin-top: 12px;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--accent);
+  font: inherit;
+  cursor: pointer;
+}
