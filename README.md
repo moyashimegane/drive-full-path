@@ -6,6 +6,20 @@ Googleドライブ（Web版）のパンくずで「...」に隠れる上位フ�
 - Driveは4階層以上のパスを「...」と直近2階層に省略する。拡張は「...」のメニューを画面に出さずに開いて隠れた階層を読み、パンくずへ差し込む。
 - 差し込んだ階層と、ポップアップの各階層はクリックでそのフォルダへ移動する。
 
+## 画面
+
+拡張機能なし：上位フォルダが「...」に隠れ、今どこにいるか分からない。
+
+![パンくずの上位フォルダが「...」に隠れている](docs/images/before.png)
+
+拡張機能あり：「...」が展開され、マイドライブからの全階層がパンくずに並ぶ。
+
+![パンくずにマイドライブからの全階層が表示されている](docs/images/after.png)
+
+ポップアップ：全階層の一覧と、コピーされるパスの確認、コピーができる。
+
+![ポップアップに全階層の一覧とコピーするパスが表示されている](docs/images/popup.png)
+
 ## 開発
 
 ```
@@ -38,6 +52,7 @@ npm run build          # dist/ に出力
 - `static/`: manifest、HTML、CSS、アイコン、`_locales`（en/ja）。
 - `assets/icon.svg`: アイコンの原本。
 - `docs/privacy.md`: プライバシーポリシー（Chromeウェブストアに載せるURLの元）。
+- `docs/images/`: READMEの画面の画像。
 - `test/fixtures/drive.ts`: Driveのパンくずを模したDOM（フォルダ名はダミー）と、「...」メニューの挙動の模倣。
 
 ## Driveへの依存
@@ -56,5 +71,7 @@ npm run build          # dist/ に出力
 ## ライセンス
 
 [MIT License](LICENSE)
+
+画面の画像の絵文字は[Noto Emoji](https://github.com/googlefonts/noto-emoji)（Google、[Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)）。
 
 Google Drive is a trademark of Google LLC.
