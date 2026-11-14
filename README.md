@@ -37,6 +37,7 @@ npm run build          # dist/ に出力
 - `src/shared/`: パスの整形、設定の読み書き、メッセージの型と検査。
 - `static/`: manifest、HTML、CSS、アイコン、`_locales`（en/ja）。
 - `assets/icon.svg`: アイコンの原本。
+- `docs/privacy.md`: プライバシーポリシー（Chromeウェブストアに載せるURLの元）。
 - `test/fixtures/drive.ts`: Driveのパンくずを模したDOM（フォルダ名はダミー）と、「...」メニューの挙動の模倣。
 
 ## Driveへの依存
@@ -47,3 +48,13 @@ npm run build          # dist/ に出力
 - `[data-target="collapsedFolderButton"]`（「...」）
 - `[data-target="collapsedFolderDropdown"]`（「...」のメニュー、`<body>`直下）
 - `[data-target="folder"][data-id]`、`[role="listitem"]`、`[role="menuitem"]`
+
+## プライバシー
+
+通信はせず、読み取ったフォルダ名は画面の表示とコピーにだけ使う。詳しくは[プライバシーポリシー](docs/privacy.md)。
+
+## ライセンス
+
+[MIT License](LICENSE)
+
+Google Drive is a trademark of Google LLC.

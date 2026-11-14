@@ -1,7 +1,7 @@
 {
-  "extName": { "message": "Full Path for Google Drive" },
+  "extName": { "message": "Full Path for Google Drive™" },
   "extDescription": {
-    "message": "Googleドライブのパンくずで「...」に隠れる上位フォルダを常に表示し、フルパスをコピーできます。"
+    "message": "Googleドライブ™のパンくずで「...」に隠れる上位フォルダを常に表示し、フルパスをコピーできます。"
   },
   "actionTitle": { "message": "フォルダのフルパスを表示" },
   "popupTitle": { "message": "フォルダのパス" },

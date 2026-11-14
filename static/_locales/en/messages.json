@@ -1,7 +1,7 @@
 {
-  "extName": { "message": "Full Path for Google Drive" },
+  "extName": { "message": "Full Path for Google Drive™" },
   "extDescription": {
-    "message": "Shows every folder of the path in the Google Drive breadcrumb instead of hiding them behind \"...\", and copies the full path."
+    "message": "Shows every folder of the path in the Google Drive™ breadcrumb instead of hiding them behind \"...\", and copies the full path."
   },
   "actionTitle": { "message": "Show the full folder path" },
   "popupTitle": { "message": "Folder path" },
